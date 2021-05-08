@@ -20,7 +20,9 @@ NOTE: **don't do the first bulleted step if you have installed nodemon before**
 
 NOTE: Specifying *app.js* after *nodemon* is **optional** since it is determined to be the main file in *package.JSON*
 
-2 - Enter the url: http://localhost:3000/articles **and** http://localhost:3000/articles/[article-exact-name;case-sensitive]
+2 - Enter the url: http://localhost:3000/articles **and** http://localhost:3000/articles/[article-name]
+
+NOTE: the [article-name] parameter is case-sensitive and thus should be an exact match to the intended article title
 
 -----------------
 
